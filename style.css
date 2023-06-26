@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "ughfont";
+    src: url("./ugh.ttf") format('truetype');
+}
+
+
+
+
+
+html {
+    color: white;
+    background-color: black;
+    font-family: "ughfont";
+  }
+
+
+  a:link {
+    color: rgb(183, 243, 183);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(95, 168, 94);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
