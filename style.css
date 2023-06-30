@@ -5,14 +5,24 @@
 
 
 
+body {
+  font-size: 12px;
+}
+
 
 
 html {
     color: white;
     background-color: black;
-    font-family: "ughfont";
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
+  h1 {
+    font-family: "ughfont" !important;
+  }
+  h3 {
+    font-family: "ughfont" !important;
+  }
 
   a:link {
     color: rgb(183, 243, 183);
