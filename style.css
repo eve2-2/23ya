@@ -12,38 +12,42 @@ body {
 
 
 html {
-    color: white;
-    background-color: black;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   h1 {
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     text-align: center;
     font-family: "ughfont" !important;
   }
   h3 {
     text-align: center;
-    padding-top: 25%;
     font-family: "Georgia" !important;
   }
 
   a:link {
-    color: rgb(183, 243, 183);
+    color: rgb(68, 87, 68);
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   a:visited {
-    color: rgb(95, 168, 94);
+    color: rgb(36, 65, 36);
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline, italic;
   }
   
 
   pre {
     text-align: left !important;
+  }
+
+
+  .hinty {
+    size: 10%;
+    color: lightgrey;
   }
 
 
