@@ -12,7 +12,8 @@ body {
 
 
 html {
-    color: black;
+  background-color: #d5c2e7;
+    color: #7e6e90;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
@@ -47,7 +48,7 @@ html {
 
   .hinty {
     size: 10%;
-    color: lightgrey;
+    color: #a498b1;
   }
 
 
