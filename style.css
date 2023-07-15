@@ -12,14 +12,13 @@ body {
 
 
 html {
-  background-color: #d5c2e7;
-    color: #7e6e90;
+  background-color: #000000;
+    color: #af9cc4;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   h1 {
     padding-top: 5%;
-    padding-bottom: 5%;
     text-align: center;
     font-family: "ughfont" !important;
   }
@@ -29,13 +28,13 @@ html {
   }
 
   a:link {
-    color: rgb(68, 87, 68);
+    color: #af9cc4;
     background-color: transparent;
     text-decoration: underline;
   }
   
   a:visited {
-    color: rgb(36, 65, 36);
+    color: #af9cc4;
     background-color: transparent;
     text-decoration: underline, italic;
   }
@@ -57,3 +56,20 @@ html {
     padding-right: 40%;
   }
 
+  .header {
+    border: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 700px;
+    height: 262px;
+  }
+
+  img {
+    image-rendering: optimizeSpeed;             
+    image-rendering: -moz-crisp-edges;         
+    image-rendering: -o-crisp-edges;        
+    image-rendering: -webkit-optimize-contrast; 
+    image-rendering: pixelated;              
+    image-rendering: optimize-contrast;        
+    -ms-interpolation-mode: nearest-neighbor; 
+  }
