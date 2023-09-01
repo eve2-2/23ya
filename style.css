@@ -12,6 +12,7 @@ body {
 
 
 html {
+  text-align: center;
   background-color: #000000;
     color: #af9cc4;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -60,11 +61,15 @@ html {
     border: white;
     border-width: 1px;
     border-style: solid;
-    width: 700px;
-    height: 262px;
+    width: 1080px;
+    height: 264px;
   }
 
   img {
+    border-bottom: hidden!important;
+    border-color: rgb(16, 14, 17); 
+    border-style: solid;
+    border-radius: 2px;
     image-rendering: optimizeSpeed;             
     image-rendering: -moz-crisp-edges;         
     image-rendering: -o-crisp-edges;        
@@ -73,3 +78,20 @@ html {
     image-rendering: optimize-contrast;        
     -ms-interpolation-mode: nearest-neighbor; 
   }
+
+  #main-content {
+    margin: auto;
+    width: 1080px;
+    text-align: match-parent;
+    border-top: hidden;
+    padding-bottom: 5rem;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(16, 14, 17); 
+    border-top: hidden;
+  }
+
+  #footer {
+    padding-bottom: 3rem;
+  }
+
