@@ -79,6 +79,10 @@ html {
     -ms-interpolation-mode: nearest-neighbor; 
   }
 
+  #awesomesauce {
+    border: hidden!important;
+  }
+
   #main-content {
     margin: auto;
     width: 1080px;
