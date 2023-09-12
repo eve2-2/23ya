@@ -10,6 +10,10 @@ body {
   font-size: 12px;
 }
 
+head {
+  padding-bottom: 0px!important;
+}
+
 
 html {
   text-align: center;
@@ -19,7 +23,7 @@ html {
   }
 
   h1 {
-    padding-top: 5%;
+    padding-top: 0px!important;
     text-align: center;
     font-family: "ughfont" !important;
   }
@@ -66,10 +70,10 @@ html {
   }
 
   img {
-    border-bottom: hidden!important;
-    border-color: rgb(16, 14, 17); 
-    border-style: solid;
-    border-radius: 2px;
+    display: block;
+    align-self: center;
+    margin: auto;
+    padding-bottom: 0%!important;
     image-rendering: optimizeSpeed;             
     image-rendering: -moz-crisp-edges;         
     image-rendering: -o-crisp-edges;        
@@ -80,22 +84,39 @@ html {
   }
 
   #awesomesauce {
+    padding-bottom: 1px!important;
     border: hidden!important;
+    display: block;
+    margin: auto;
+
   }
 
   #main-content {
+    -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
+    -moz-box-shadow:inset 0px 0px 0px 1px #fff;
+    box-shadow:inset 0px 0px 0px 1px #fff;
+    display: block;
+    background-color: #222222;
     margin: auto;
+    margin-top: 0%!important;
     width: 1080px;
     text-align: match-parent;
-    border-top: hidden;
-    padding-bottom: 5rem;
-    border-style: solid;
-    border-radius: 2px;
-    border-color: rgb(16, 14, 17); 
-    border-top: hidden;
+    padding-top: 0px!important;
+    padding-bottom: 0rem;
   }
 
   #footer {
     padding-bottom: 3rem;
   }
 
+body {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  }
+
+#header_img {
+  padding-left: 1px!important;
+ padding-right: 1px!important; 
+
+}
