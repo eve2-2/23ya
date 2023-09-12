@@ -123,3 +123,9 @@ body {
 
 }
 
+#cache {
+  filter: brightness(4);
+  width: 1px;
+  height: 1px;
+}
+
