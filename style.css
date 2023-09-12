@@ -10,6 +10,8 @@ body {
   font-size: 12px;
 }
 
+
+
 head {
   padding-bottom: 0px!important;
 }
@@ -17,7 +19,7 @@ head {
 
 html {
   text-align: center;
-  background-color: #000000;
+  background-color: #121212;
     color: #af9cc4;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
@@ -96,7 +98,7 @@ html {
     -moz-box-shadow:inset 0px 0px 0px 1px #fff;
     box-shadow:inset 0px 0px 0px 1px #fff;
     display: block;
-    background-color: #222222;
+    background-color: #121212;
     margin: auto;
     margin-top: 0%!important;
     width: 1080px;
@@ -120,3 +122,4 @@ body {
  padding-right: 1px!important; 
 
 }
+
