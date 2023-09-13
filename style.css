@@ -8,8 +8,10 @@
 body {
   text-align: center;
   font-size: 12px;
+  background-image: url(./partybg4.png);
+  background-repeat: repeat;
+  background-size: 350px;
 }
-
 
 
 head {
@@ -148,3 +150,8 @@ body {
   height: 1px;
 }
 
+
+#wire {
+  mix-blend-mode:lighten;
+  opacity: 75%;
+}
