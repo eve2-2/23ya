@@ -18,6 +18,17 @@ head {
   padding-bottom: 0px!important;
 }
 
+#superduper {
+  display: block;
+  padding-top: 1px!important;
+  margin-top: 2px;
+}
+
+#badge {
+  padding-top: 4px;
+  display: flex!important;
+}
+
 
 html {
   text-align: center;
@@ -154,4 +165,36 @@ body {
 #wire {
   mix-blend-mode:lighten;
   opacity: 75%;
+}
+
+
+.para2 {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#imgcontain {
+  padding-top: 25px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+
+  
+}
+
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+.badge {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
 }
