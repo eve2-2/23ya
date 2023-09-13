@@ -94,17 +94,36 @@ html {
   }
 
   #main-content {
-    -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
-    -moz-box-shadow:inset 0px 0px 0px 1px #fff;
-    box-shadow:inset 0px 0px 0px 1px #fff;
+    -webkit-box-shadow: 0px 0px 22px 2px rgba(135, 129, 159,1);
+    -moz-box-shadow: 0px 0px 22px 2px rgba(195,194,199,1);
+    box-shadow: 0px 0px 22px 2px rgba(135, 129, 159,1);
     display: block;
-    background-color: #121212;
     margin: auto;
     margin-top: 0%!important;
-    width: 1080px;
+    width: 1290px;
     text-align: match-parent;
     padding-top: 0px!important;
     padding-bottom: 0rem;
+    background: #121212;
+    border-image: url(./bordertilemap.png) 33.333% repeat;
+    border-image-width: 105px;
+    border-image-repeat: round;
+    border-style: solid;
+    border-image-outset: 0px;
+    border-bottom: hidden;
+    border-top: hidden;
+    background: none!important;
+  }
+   
+
+  #center-column {
+    width: 1080px;
+    background-color: #121212!important;
+    display: block;
+    margin: auto;
+    -webkit-box-shadow:inset 0px 0px 0px 1px #fff;
+    -moz-box-shadow:inset 0px 0px 0px 1px #fff;
+    box-shadow:inset 0px 0px 0px 1px #fff;
   }
 
   #footer {
