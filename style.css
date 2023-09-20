@@ -238,8 +238,34 @@ body {
   width: fit-content;
 }
 
+.tumblr_body {
+  padding-top: 25px;
+  display: block;
+  margin-top: 25px;
+}
+
+.tumblr_post.tumblr_test_post {
+  padding: auto;
+  padding-top: 3px;
+  margin:auto;
+  margin-top: 15px;
+  border: #fff 1px solid;
+  display: block;
+  width: fit-content;
+}
 
 
+
+.blockquote {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  margin-left:75px!important;
+  margin-right: 75px!important;
+  padding-left: auto;
+  width: 400px!important;
+  padding-bottom: 75px;
+}
 
 .tumblr_photo {
   display: block;
