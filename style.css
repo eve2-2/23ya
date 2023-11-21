@@ -1,12 +1,5 @@
-@font-face {
-    font-family: "ughfont";
-    src: url("./ugh.ttf") format('truetype');
-}
-
-
-
 body {
-  text-align: center;
+  text-align: left;
   font-size: 12px;
 /*  background-image: url(./partybg4.png); */ 
 /*  background-repeat: repeat; */
@@ -29,36 +22,43 @@ head {
   display: flex!important;
 }
 
+#navbar {
+
+    font-size: 24px;
+    text-align: left;
+
+}
+
+
+
+#centerlink {
+
+  padding-left: 25%;
+  padding-right: 25%;
+
+    
+}
+
+
+#seperator {
+
+    text-align: center;
+}
+
 
 html {
-  text-align: center;
+  text-align: left;
   background-color: #EDEDED;
     color: #080808;
-    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   h1 {
     padding-top: 0px!important;
-    text-align: center;
-    font-family: "ughfont" !important;
+    text-align: left;
   }
   h3 {
-    text-align: center;
-    font-family: "Georgia" !important;
+    text-align: left;
   }
-
-  a:link {
-    color: #6f3ea7;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:visited {
-    color: #6b6375;
-    background-color: transparent;
-    text-decoration: underline, italic;
-  }
-  
 
   pre {
     text-align: left !important;
@@ -71,10 +71,6 @@ html {
   }
 
 
-  .para1 {
-    padding-left: 40%;
-    padding-right: 40%;
-  }
 
   .header {
     border: #080808;
@@ -86,7 +82,7 @@ html {
 
   img {
     display: block;
-    align-self: center;
+    align-self: left;
     margin: auto;
     padding-bottom: 0%!important;
     image-rendering: optimizeSpeed;             
@@ -98,55 +94,12 @@ html {
     -ms-interpolation-mode: nearest-neighbor; 
   }
 
-  #awesomesauce {
-    filter: invert(100%);
-    padding-bottom: 1px!important;
-    border: hidden!important;
-    display: block;
-    margin: auto;
-
-  }
-
-  #main-content {
-/*    -webkit-box-shadow: 0px 0px 22px 2px rgba(135, 129, 159,1);
-    -moz-box-shadow: 0px 0px 22px 2px rgba(195,194,199,1);
-    box-shadow: 0px 0px 22px 2px rgba(135, 129, 159,1); */
-    display: block;
-    margin: auto;
-    margin-top: 0%!important;
-    width: 1290px;
-    text-align: match-parent;
-    padding-top: 0px!important;
-    padding-bottom: 0rem;
-    background: #EDEDED;
-/*    border-image: url(./bordertilemap.png) 33.333% repeat;
-    border-image-width: 105px;
-    border-image-repeat: round;
-    border-style: solid;
-    border-image-outset: 0px;
-    border-bottom: hidden;
-    border-top: hidden; */
-    background: none!important;
-  }
-   
-
-  #center-column {
-    width: 1080px;
-    background-color: #EDEDED!important;
-    display: block;
-    margin: auto;
-    -webkit-box-shadow:inset 0px 0px 0px 1px #000;
-    -moz-box-shadow:inset 0px 0px 0px 1px #000;
-    box-shadow:inset 0px 0px 0px 1px #000;
-  }
-
   #footer {
     padding-bottom: 3rem;
   }
 
 body {
-  display: block;
-  padding: 0px;
+  padding: 100px;
   margin: 0px;
   }
 
@@ -163,10 +116,6 @@ body {
 }
 
 
-#wire {
-  opacity: 85%;
-}
-
 
 .para2 {
   padding-left: 25%;
@@ -182,126 +131,3 @@ body {
   
 }
 
-
-.badge-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-
-.badge {
-  margin: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ccc;
-}
-
-.tumblr_posts {
-  padding-left: 0px!important;
-}
-
-.tumblr_body {
-  margin-right: 75px;
-  margin-left: 75px;
-  border: #fff 1px solid;
-}
-
-.tumblr_post {
-  display: block;
-  margin: auto;
-  text-align: center;
-  max-width: 700px;
-  max-height: 400px;
-  align-self: center;
-  margin-top: 15px;
-}
-
-.tmblr-iframe--loaded {
-  visibility: hidden!important;
-  
-}
-
-.tumblr_blog {
-  font-weight: bold;
-}
-
-.tumblr_post.tumblr_photo_post {
-  padding: auto;
-  padding-top: 3px;
-  margin:auto;
-  margin-top: 15px;
-  border: #fff 1px solid;
-  display: block;
-  width: fit-content;
-}
-
-.tumblr_body {
-  padding-top: 25px;
-  display: block;
-  margin-top: 25px;
-}
-
-.tumblr_post.tumblr_test_post {
-  padding: auto;
-  padding-top: 3px;
-  margin:auto;
-  margin-top: 15px;
-  border: #fff 1px solid;
-  display: block;
-  width: fit-content;
-}
-
-
-
-.blockquote {
-  display: flex;
-  align-self: center;
-  text-align: center;
-  margin-left:75px!important;
-  margin-right: 75px!important;
-  padding-left: auto;
-  width: 400px!important;
-  padding-bottom: 75px;
-}
-
-.tumblr_photo {
-  display: block;
-  align-self: center;
-  text-align: center;
-  margin-left:75px!important;
-  margin-right: 75px!important;
-  padding-left: auto;
-  width: 400px!important;
-}
-
-.tumblr_caption {
-  display: block;
-  align-self: center;
-  text-align: center;
-  margin-left:75px!important;
-  margin-right: 75px!important;
-  padding-left: auto;
-  width: 400px!important;
-}
-
-.post_media_photo {
-  display: block;
-  text-align: center;
-  align-self: center;
-  margin: auto;
-  width: 400px!important;
-}
-
-.image {
-  width: 400px;
-
-}
-
-.post_media_photo_anchor {
-  display: block;
-  align-self: center;
-  
-}
