@@ -15,12 +15,12 @@ evvv.org - home
 <body>
   <div id="navbar">
 
-    <a href="./index.html">home</a> -- <a href="./about.html">about</a> -- <a href="./contact.html">contact</a> -- <a href="./404.html">projects</a>
+    <a href="./index.html">home</a> -- <a href="./about.html">about</a> -- <a href="./contact.html">contact</a> -- <a href="./projects.html">projects</a>
     <br>
     <a href="./links.html">harm reduction</a>
   
   </div>
-        <h1>home</h1>
+        <h1>projects</h1>
 
         <h2>
             navigate the site using the link menu at the top of the screen!
