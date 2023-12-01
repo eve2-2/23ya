@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        evvv.org - what is this?
+    </title>
+    <link rel="icon" type="image/gif" href="./eye.gif">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="about eve/this website">
+<meta name="keywords" content="Drugs, Pharmacology, Pharmacy, Medical, Medicine">
+<meta name="author" content="evelyn">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navbar">
+
+    <a href="./index.html">home</a> -- <a href="./about.html">about</a> -- <a href="./contact.html">contact</a> -- <a href="./404.html">projects</a>
+    <br>
+    <a href="./links.html">harm reduction</a>
+  
+  </div>
+        <h1>programs</h1>
+        <h2>programs or applications that i recommend using / programs that i use daily</h2>
+        <p class="para2">this website was designed with WSXGA monitors in mind ... most elements are not fluid and use absolute values so dont freak out if the scaling is weird on a modern monitor lol</p>
+
+
+
+</body>
+
+
+
+
+</html>

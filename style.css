@@ -60,6 +60,12 @@ html {
     text-align: left;
   }
 
+  h4 {
+
+      padding-left:25%;
+      padding-right:25%;
+  }
+
   pre {
     text-align: left !important;
   }
