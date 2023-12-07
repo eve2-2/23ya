@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <title>
-        evvv.org - harm reduction info
+        evvv.org - bookmarks
     </title>
     <link rel="icon" type="image/gif" href="./eye.gif">
     <head>
     <link rel="stylesheet" href="style.css">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="eve's harm reduction hub">
+<meta name="description" content="eve's harm awesome bookmarks">
 <meta name="keywords" content="Drugs, Pharmacology, Pharmacy, Medical, Medicine, Harm Reduction">
 <meta name="author" content="eve">
 <link rel="stylesheet" href="style.css">
@@ -21,7 +21,7 @@
     <a href="./links.html">harm reduction</a>
   
   </div>
-  <h1>harm reduction resources</h1>
+  <h1>eve's awesome link list</h1>
 	<br><br><br><br>
         <p id="seperator">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
         <a id="centerlink" href="https://erowid.org/">erowid.org - Documenting the Complex Relationship Between Humans & Psychoactives</a>
