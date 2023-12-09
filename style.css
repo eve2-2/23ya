@@ -36,6 +36,16 @@ head {
 
 }
 
+#smallerimage {
+
+    padding-left: 25%;
+    padding-right: 25%;
+
+    width:25%;
+    height:auto;
+
+}
+
 
 
 #centerlink {
@@ -49,6 +59,7 @@ head {
 
 #seperator {
 
+    opacity:50%;
     text-align: center;
 }
 
