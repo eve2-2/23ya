@@ -1,6 +1,7 @@
 body {
   text-align: left;
   font-size: 12px;
+  font-family: 'MS Gothic', 'IPAMonaGothic', 'IPAGothic', monospace;
 /*  background-image: url(./partybg4.png); */ 
 /*  background-repeat: repeat; */
 /*  background-size: 350px; */
@@ -72,7 +73,9 @@ head {
 html {
   text-align: left;
   background-color: #EDEDED;
-    color: #080808;
+  color: #080808;
+  font-family: 'MS Gothic', 'IPAMonaGothic', 'IPAGothic', monospace;
+  line-height: 1.5;
   }
 
   h1 {
@@ -127,7 +130,8 @@ html {
     padding-bottom: 3rem;
   }
 
-body {
+  body {
+  font-size: 12pt;
   padding: 100px;
   margin: 0px;
   }
@@ -144,9 +148,8 @@ body {
   height: 1px;
 }
 
-
-
 .para2 {
+    font-size: 12pt;
   padding-left: 25%;
   padding-right: 25%;
 }
